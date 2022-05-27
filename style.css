@@ -1,0 +1,88 @@
+.btn-toggle::after{
+    margin-left: auto;
+    width: 1.25em;
+    line-height: 0;
+    content: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAJVJREFUSEvt1EENgDAQRNFfBzgBCeAARyABJ0gACeAECWRvwIHubNKEAz0387rTtInCKxXO5weyDX+qohGYgCN77MsG7wQWPgAb0CmIF6iAFahVxAvY0CFEAUKICshIFFiABtiB9u3SVcDuwR1u4yqAHK4AoXAF6IHZ0/nzlSsVGWKPrchXoXw/t73KBCHkB7K1Fa/oBCp+IhnuHeH5AAAAAElFTkSuQmCC");
+    transition: transform .35s ease;
+    transform-origin: 0.5em 50%;
+    
+}
+
+.sidebar--button::before{
+    
+        content: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAPNJREFUSEvtldENwjAQQ90JgAmACYANYBOYDDaBEWADmAA2ALlKpOi4pE6lSHzQv/ZyflbiSzs0frrG+qgBTAGcg6EdgJdiTgVE8XUQvQKQIAogFb8FwAqABBkCWPFtAFwASJASwBOP+86aBMkBSuLxbCWIB1DEZYgF1IhLkBRgozhTsw6AvU8vwimAsWMy4jOUMDtn7+QDtTZ8bwXgvPRD6bmMTmKN2T8CWBjLdwCHEFeWbF+/XAFQaJ65d1hbhtpogNvoOP4Dvs7LbsnvbBFvzInyt3LWPGycvZgy96dCNHNsiu+TucjOwUjzflvtfVMN/wCUvlMZx+RBFQAAAABJRU5ErkJggg==");
+        width: 1.25em;
+        line-height: 0;
+    }
+
+
+
+.btn-toggle[aria-expanded="true"]::after{
+    
+    transform: rotate(90deg);
+}
+
+
+/* .btn-toggle::before{
+    content: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAASNJREFUSEvtlFFRA0EQRN8pAAmgAFAQcAAOQEFwQKIAoiA4ABQkcRAUBAmgAOpVzaYOavf2riDFT+brtna2e6an5xp2HM2O8dkTVBXuI9EhMAYugdNAXAPPwAx472KpEVwD94AkuRD8JsiyCV0Egs/j1QvwACzjfA5MgFGcr0okJQIr3kTlVvhY6ECSu5DpOCdXiSA9tHK17wq7spNpdPUtt0TgEE+Ai5YsJRLlWgC+OfuZVCL4jMSaCRJeMf/fCIZI5IyegNfWnmyVqg3ZZdKCfz5kbfoGHIQzdEgukts+gKMhNhUste63VhRs1Vo0/a+DjMGLlqp1m91gO8mFlZujlNnoY0Pluo2O3A3DgQoq+a9+dpX51q/7dFBH6cjYE1Tl+wL+6DYZeOcamgAAAABJRU5ErkJggg==");
+    width: 1.25em;
+    line-height: 0;
+} */
+
+.item{
+
+    padding-top: 0.375rem;
+    padding-bottom:0.375rem;
+    padding-left: 0.75rem;
+    padding-right:0.75rem ;
+}
+
+
+.content--table{
+    border-collapse: collapse;
+    font-size: 13px;
+    min-width: 400px;
+ 
+}
+
+.content--table thead tr{
+    text-align: left;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+}
+
+
+
+.content--table th{
+    padding:0px 10px; 
+    color: black;
+    font-weight: bold;
+}
+
+.content--table td{
+    padding:12px 10px ;
+}
+
+
+table{
+    width: 100%;
+}
+.amount{
+    font-size: 10px;
+}
+
+.under--header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+

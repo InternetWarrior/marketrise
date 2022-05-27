@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body>
+
+
+<div class="container-lg h-100 d-inline-flex ">
+
+    <div class="sidebar h-100 bg-secondary flex-shrink-0 p-3 bg-white" style="width: 280px;">
+
+        <div class="navbar-header mb-1">
+            <ul class="nav navbar-nav flex-row">
+                <li class="nav-item mr-auto">
+                    <a href="/demo/vuexy-vuejs-admin-dashboard-template/demo-1/" class="navbar-brand router-link-active" target="_self"><span class="brand-logo"><img src="./LOGO_MARKET_RISE.svg" alt="logo" class=""></span></a></li><li class="nav-item nav-toggle"><a href="#" target="_self" class="nav-link modern-nav-toggle"><svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="d-block d-xl-none feather feather-x"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg><svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="d-none d-xl-block collapse-toggle-icon feather feather-disc"><circle cx="12" cy="12" r="10"></circle><circle cx="12" cy="12" r="3"></circle></svg></a></li></ul>
+                </div>
+
+        <ul class="list-unstyled ">
+            
+
+
+
+            <li class="mb-1">
+                
+                <button class="btn w-100 gap-4 btn-toggle d-inline-flex align-items-center  rounded border-0" data-bs-toggle="collapse" data-bs-target="#reports" aria-expanded="false">ОТЧЕТЫ</button>
+                <div class=" collapse hide " id="reports"> 
+                    <ul class=" list-unstyled list-group ">
+                        <li class="btn d-inline-flex gap-3 item  align-items-center "> <i class="fa-solid fa-money-bill-transfer"></i> <a href="#" class="item align-items-center gap-4 link-dark d-inline-flex text-decoration-none rounded">Движение денег</a></li>
+                        <li class="btn d-inline-flex gap-3 item  align-items-center "> <i class="fa-solid fa-ranking-star"></i><a href="#" class="item align-items-center gap-4 link-dark d-inline-flex text-decoration-none rounded">Продажи</a></li>
+                        <li class="btn d-inline-flex gap-3 item  align-items-center "><i class="fa-solid fa-timeline"></i><a href="#" class="item align-items-center gap-4 link-dark d-inline-flex text-decoration-none rounded">Производство</a></li>
+                        <li class="btn d-inline-flex gap-3 item  align-items-center "><i class="fa-solid fa-boxes-stacked"></i><a href="#" class="item align-items-center gap-4 link-dark d-inline-flex text-decoration-none rounded">Склад</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="mb-1">
+                <button class="btn w-100 gap-4 btn-toggle d-inline-flex align-items-center  rounded border-0" data-bs-toggle="collapse" data-bs-target="#record" aria-expanded="false">УЧЕТ</button>
+                <div class=" collapse hide" id="record"> 
+                    <ul class="list-unstyled list-group">
+                        <li class="btn d-inline-flex gap-3 item  align-items-center "><i class="fa-solid fa-list-check"></i><a href="#" class="item align-items-center gap-4 link-dark d-inline-flex text-decoration-none rounded">Операции</a></li>
+                        <li class="btn d-inline-flex gap-3 item  align-items-center "><i class="fa-solid fa-diagram-project"></i><a href="#" class="item align-items-center gap-4 link-dark d-inline-flex text-decoration-none rounded">Проекты</a></li>
+                        <li class="btn d-inline-flex gap-3 item  align-items-center "><i class="fa-solid fa-bars-progress"></i><a href="#" class="item align-items-center gap-4 link-dark d-inline-flex text-decoration-none rounded">Заказы</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="mb-1">
+                <button class="btn w-100 gap-4 btn-toggle d-inline-flex align-items-center  rounded border-0" data-bs-toggle="collapse" data-bs-target="#directory" aria-expanded="false">СПРАВОЧНИКИ</button>
+                <div class=" collapse hide" id="directory"> 
+                    <ul class="list-unstyled list-group">
+                        <li class="btn d-inline-flex gap-3 item  align-items-center "><i class="fa-solid fa-hand-holding-hand"></i><a href="#" class="item align-items-center gap-4 link-dark d-inline-flex text-decoration-none rounded">Контрагенты</a></li>
+                        <li class="btn d-inline-flex gap-3 item  align-items-center "><i class="fa-solid fa-thumbtack"></i><a href="#" class="item align-items-center gap-4 link-dark d-inline-flex text-decoration-none rounded">Статьи</a></li>
+                        <li class="btn d-inline-flex gap-3 item  align-items-center "><i class="fa-solid fa-thumbtack"></i><a href="#" class="item align-items-center gap-4 link-dark d-inline-flex text-decoration-none rounded">Номенклатура</a></li>
+                    </ul>
+                </div>
+            </li>
+            <div class="btn border-0 groupnik">ПРОДВИЖЕНИЕ</div>
+            <li class="mb-1">
+                <button class="btn w-100 gap-4 btn-toggle d-inline-flex align-items-center  rounded border-0" data-bs-toggle="collapse" data-bs-target="#buyout" aria-expanded="false">ВЫКУПЫ</button>
+                <div class=" collapse hide" id="buyout"> 
+                    <ul class="list-unstyled list-group">
+                        <li class="btn d-inline-flex gap-3 item  align-items-center "><i class="fa-solid fa-briefcase"></i><a href="#" class="item align-items-center gap-4 link-dark d-inline-flex text-decoration-none rounded">Задания</a></li>
+                        <li class="btn d-inline-flex gap-3 item  align-items-center "><i class="fa-solid fa-cart-shopping"></i><a href="#" class="item align-items-center gap-4 link-dark d-inline-flex text-decoration-none rounded">Выкупы</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="mb-1">
+                <button class="btn w-100 gap-4 btn-toggle d-inline-flex align-items-center  rounded border-0" data-bs-toggle="collapse" data-bs-target="#directory2" aria-expanded="false">СПРАВОЧНИКИ</button>
+                <div class=" collapse hide" id="directory2"> 
+                    <ul class="list-unstyled list-group">
+                        <li class="btn d-inline-flex gap-3 item  align-items-center "><i class="fa-solid fa-street-view"></i><a href="#" class="item align-items-center gap-4 link-dark d-inline-flex text-decoration-none rounded">Покупатели</a></li>
+                        <li class="btn d-inline-flex gap-3 item  align-items-center "><i class="fa-solid fa-circle"></i><a href="#" class="item align-items-center gap-4 link-dark d-inline-flex text-decoration-none rounded">Продавцы</a></li>
+                        <li class="btn d-inline-flex gap-3 item  align-items-center "><i class="fa-solid fa-building-columns"></i><a href="#" class="item align-items-center gap-4 link-dark d-inline-flex text-decoration-none rounded">Счета</a></li>
+                        <li class="btn d-inline-flex gap-3 item  align-items-center "><i class="fa-solid fa-credit-card"></i><a href="#" class="item align-items-center gap-4 link-dark d-inline-flex text-decoration-none rounded">Карты</a></li>
+                        <li class="btn d-inline-flex gap-3 item  align-items-center "><i class="fa-solid fa-phone"></i><a href="#" class="item align-items-center gap-4 link-dark d-inline-flex text-decoration-none rounded">Телефоны</a></li>
+                        <li class="btn d-inline-flex gap-3 item  align-items-center "><i class="fa-solid fa-map-location-dot"></i><a href="#" class="item align-items-center gap-4 link-dark d-inline-flex text-decoration-none rounded">Районы</a></li>
+                        <li class="btn d-inline-flex gap-3 item  align-items-center "><i class="fa-solid fa-circle"></i><a href="#" class="item align-items-center gap-4 link-dark d-inline-flex text-decoration-none rounded">Отчет</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="mb-1">
+                <button class="btn w-100 gap-4 btn-toggle d-inline-flex align-items-center  rounded border-0" data-bs-toggle="collapse" data-bs-target="#wb" aria-expanded="false">WB</button>
+                <div class=" collapse hide" id="wb"> 
+                    <ul class="list-unstyled list-group">
+                        <li class="btn d-inline-flex gap-3 item  align-items-center "><i class="fa-solid fa-dolly"></i><a href="#" class="item align-items-center gap-4 link-dark d-inline-flex text-decoration-none rounded">Поставки</a></li>
+                        <li class="btn d-inline-flex gap-3 item  align-items-center "><i class="fa-solid fa-layer-group"></i><a href="#" class="item align-items-center gap-4 link-dark d-inline-flex text-decoration-none rounded">Склад</a></li>
+                        <li class="btn d-inline-flex gap-3 item  align-items-center "><i class="fa-solid fa-diagram-next"></i><a href="#" class="item align-items-center gap-4 link-dark d-inline-flex text-decoration-none rounded">Заказы</a></li>
+                        <li class="btn d-inline-flex gap-3 item  align-items-center "><i class="fa-solid fa-diagram-next"></i><a href="#" class="item align-items-center gap-4 link-dark d-inline-flex text-decoration-none rounded">Продажи</a></li>
+                        <li class="btn d-inline-flex gap-3 item  align-items-center "><i class="fa-solid fa-chart-pie"></i><a href="#" class="item align-items-center gap-4 link-dark d-inline-flex text-decoration-none rounded">Отчеты</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="mb-1">
+                <button class="btn w-100 gap-4 btn-toggle d-inline-flex align-items-center  rounded border-0" data-bs-toggle="collapse" data-bs-target="#logistics" aria-expanded="false">ЛОГИСТИКА</button>
+                <div class=" collapse hide" id="logistics"> 
+                    <ul class="list-unstyled list-group">
+                        <li  class="btn d-inline-flex gap-3 item  align-items-center "><i class="fa-solid fa-warehouse"></i><a href="#" class="item align-items-center gap-4 link-dark d-inline-flex text-decoration-none rounded">Склады</a></li>
+                        <li class="btn d-inline-flex gap-3 item  align-items-center "><i class="fa-solid fa-shapes"></i><a href="#" class="item align-items-center gap-4 link-dark d-inline-flex text-decoration-none rounded">Товары</a></li>
+                        <li class="btn d-inline-flex gap-3 item  align-items-center "><i class="fa-solid fa-truck-arrow-right"></i><a href="#" class="item align-items-center gap-4 link-dark d-inline-flex text-decoration-none rounded">Доставки</a></li>
+                    </ul>
+                </div>
+            </li> 
+            <li class="mb-1">
+                <button class="btn w-100 gap-4 btn-toggle d-inline-flex align-items-center  rounded border-0" data-bs-toggle="collapse" data-bs-target="#crm" aria-expanded="false">CRM</button>
+                <div class=" collapse hide" id="crm"> 
+                    <ul class="list-unstyled list-group">
+                        <li class="btn d-inline-flex gap-3 item  align-items-center "><i class="fa-solid fa-envelope-open-text"></i><a href="#" class="item align-items-center gap-4 link-dark d-inline-flex text-decoration-none rounded">Заявки</a></li>
+                        <li class="btn d-inline-flex gap-3 item  align-items-center "><i class="fa-solid fa-comment"></i><a href="#" class="item align-items-center gap-4 link-dark d-inline-flex text-decoration-none rounded">Сообщения</a></li>
+                    </ul>
+                </div>
+            </li>
+            
+        </ul>
+    </div>
+
+
+    <div class="main--content">
+
+
+        <header>
+            <h1>Операции</h1>
+            <hr>
+            <div>
+                <div class="under--header">
+                    <div class="amount">Найдено 2</div>
+                    <div>
+                    <a href=""><i class='bx bx-sm bx-cloud-download'></i></a>
+                    <a href=""><i class='bx bx-sm bx-cloud-upload' ></i></a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        
+        
+        
+        
+    
+            <table class="content--table">
+                <thead >
+                    <th class="head">Создано</th>
+                    <th class="head">Создал</th>
+                    <th class="head">Статья</th>
+                    <th class="head">Отправитель</th>
+                    <th class="head">Счёт отправителя</th>
+                    <th class="head">Счёт получателя</th>
+                    <th class="head">Сумма</th>
+                    <th class="head">Описание</th>
+                    <th class="head">Дата исполнение</th>
+                    <th class="head">Прокат</th>
+                    <th class="head">Заказ</th>
+                    <th class="head">Управление</th>
+                    
+                </thead>
+                
+                <tbody>
+                    
+                    <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>4</td>
+                        <td>5</td>
+                        <td>6</td>
+                        <td>7</td>
+                        <td>8</td>
+                        <td>9</td>
+                        <td>10</td>
+                        <td>11</td>
+                        <td>12</td>
+                        <td>13</td>
+                        
+    
+                        
+                    </tr>
+                    
+                </tbody>
+            </table>
+    
+      </div>
+
+
+
+    
+</div>
+
+
+
+
+<script src="https://kit.fontawesome.com/2d936cef6e.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<script>
+    $(document).on('click','.item', function(){
+        $('.item').removeClass('active')
+        $(this).addClass('active')
+    })
+</script>
+<style>
+    .activebackground{
+    background-color: brown;
+}
+
+</style>
+</body>
+</html>
